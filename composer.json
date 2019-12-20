@@ -1,0 +1,30 @@
+{
+    "name": "mintopia/laravel-balena-sdk",
+    "description": "Laravel Module for the Balena Cloud API SDK",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "authors": [
+        {
+            "name": "Mintopia",
+            "email": "jess@mintopia.net"
+        }
+    ],
+    "require": {
+        "mintopia/balena-sdk": "dev-master",
+        "illuminate/support": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mintopia\\LaravelBalenaSdk\\BalenaSdkServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mintopia\\LaravelBalenaSdk\\": "src\\"
+        }
+    }
+}

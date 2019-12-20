@@ -1,11 +1,10 @@
 <?php
 namespace Mintopia\LaravelBalenaSdk;
 
-use Mintopia\LaravelBalenaSdk\BalenaSdkServiceProvider;
 use Illuminate\Support\ServiceProvider;
 use Mintopia\BalenaSdk\Manager;
 
-class DbQueryServiceProvider extends ServiceProvider
+class BalenaSdkServiceProvider extends ServiceProvider
 {
     public function boot()
     {
